@@ -277,6 +277,7 @@ detectNTSC:
     .include "source/library/bank_helpers.asm"
 	.include "source/neslib_asm/neslib.asm"
 	.include "source/graphics/palettes.asm"
+	.include "source/graphics/static/custom_title_assets.asm"
 	
 
 ; Not used; we have the STUB_PRG bit instead which has some reset code in addition to vector stuff
@@ -300,7 +301,7 @@ detectNTSC:
 .segment "CHR_02"
 	.incbin "graphics/sprites.chr"
 .segment "CHR_03"
-	.incbin "graphics/tiles.chr"
+	.incbin "graphics/static/title.chr"
 .segment "CHR_04"
 	.incbin "graphics/tiles.chr"
 .segment "CHR_05"
