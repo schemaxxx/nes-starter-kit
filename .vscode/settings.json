@@ -11,6 +11,7 @@
         "bank_helpers.h": "c",
         "map_sprites.h": "c",
         "text_helpers.h": "c",
-        "hud.h": "c"
+        "hud.h": "c",
+        "level_overworld.h": "c"
     }
 }

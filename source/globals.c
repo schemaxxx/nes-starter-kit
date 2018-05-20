@@ -38,6 +38,8 @@ ZEROPAGE_DEF(int, tempInt3);
 ZEROPAGE_DEF(int, tempInt4);
 ZEROPAGE_DEF(int, tempInt5);
 
+unsigned char warpCooldownTime;
+
 // This can be used to convert a byte value to a bit id - just get the 
 const unsigned int bitToByte[8] = {
     0x01,
